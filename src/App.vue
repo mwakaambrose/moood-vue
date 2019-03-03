@@ -1,13 +1,9 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/moods">Moods</router-link>
-    </div> -->
-    <!-- <sui-divider /> -->
     <div class="pages">
       <router-view/>
     </div>
+    <small>Made with love from Kampala, Uganda</small>
   </div>
 </template>
 

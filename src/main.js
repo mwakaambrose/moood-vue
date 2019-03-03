@@ -5,10 +5,6 @@ import store from './store'
 import './registerServiceWorker'
 
 import SuiVue from 'semantic-ui-vue';
-
-// Load Montserrat typeface
-
-
 import 'semantic-ui-css/semantic.min.css';
 
 Vue.config.productionTip = false
