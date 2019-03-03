@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/moods">Moods</router-link>
+    </div> -->
+    <!-- <sui-divider /> -->
+    <div class="pages">
+      <router-view/>
     </div>
-    <router-view/>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -27,5 +29,11 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.pages {
+  height: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
 }
 </style>

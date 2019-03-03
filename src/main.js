@@ -4,10 +4,19 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
+import SuiVue from 'semantic-ui-vue';
+
+// Load Montserrat typeface
+
+
+import 'semantic-ui-css/semantic.min.css';
+
 Vue.config.productionTip = false
 
+Vue.use(SuiVue);
+
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount('#app')
