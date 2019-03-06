@@ -58,6 +58,8 @@ import axios from 'axios'
 // Fecth last 8
 // Production
 const api = 'http://api.moood.trustfinity.ltd/moods-limited-eight'
+//add new moood
+const api_add_moood = 'http://api.moood.trustfinity.ltd/moods'
 // Test
 // const api = 'http://localhost:3000/moods-limited-eight'
 
@@ -93,7 +95,7 @@ export default {
         return
       }
 
-      axios.post(api, {
+      axios.post(api_add_moood, {
         author: this.userhandle,
         mood: this.usermood
       }).then((response) => {
