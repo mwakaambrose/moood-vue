@@ -56,7 +56,10 @@ import Mood from '@/components/Mood.vue'
 import axios from 'axios'
 
 // Fecth last 8
-const api = 'http://localhost:3000/moods-limited-eight'
+// Production
+const api = 'http://api.moood.trustfinity.ltd/moods-limited-eight'
+// Test
+// const api = 'http://localhost:3000/moods-limited-eight'
 
 export default {
   name: 'home',

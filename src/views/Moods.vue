@@ -19,7 +19,10 @@ import InfiniteLoading from 'vue-infinite-loading';
 import axios from 'axios';
 import MoodHolder from '@/components/Mood.vue'
 
-const api = 'http://localhost:3000/moods';
+// Local
+// const api = 'http://localhost:3000/moods';
+// Production
+const api = 'http://api.moood.trustfinity.ltd/moods';
 
 export default {
   components: {
