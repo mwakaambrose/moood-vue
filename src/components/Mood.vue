@@ -3,7 +3,7 @@
         <sui-card>
             <sui-card-content>
                 <sui-card-header> {{ author }}</sui-card-header>
-                <sui-card-meta>2 days ago</sui-card-meta>
+                <!-- <sui-card-meta>2 days ago</sui-card-meta> -->
                 <sui-card-description>
                 <p>
                     <em>{{ mood }}</em>

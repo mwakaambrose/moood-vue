@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.7a6c14618b7ea839db30732d64e34335.js"
+  "/precache-manifest.5c84605b5bb3075e936a7dcb15a0103c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "moood-vue"});
